@@ -1314,7 +1314,7 @@ body {
     -webkit-transition: none;
     transition: none; }
   .header--index.header--sticky {
-    background-color: rgba(0, 0, 0, 0.3); }
+    background-color: rgba(0, 0, 0, 0.5); }
   .header--slide-down {
     -webkit-animation-name: slideInDown;
             animation-name: slideInDown;
@@ -1373,6 +1373,10 @@ body {
   .main-nav__item {
     display: inline-block;
     margin-right: 40px; }
+    .main-nav__item:hover {
+        background-color: #ff6600;
+        color: white;
+    }
     .main-nav__item:last-child {
       margin-right: 0; }
     .main-nav__item--active {
@@ -1395,6 +1399,9 @@ body {
     font-size: 14px;
     font-size: 0.875rem;
     color: #fff; }
+    .main-nav__link:hover{
+      color: white;
+    }
   .main-nav--default {
     float: left;
     height: 66px; }
@@ -1708,9 +1715,10 @@ body {
       left: auto;
       width: auto;
       height: auto;
-      overflow: auto; }
+      overflow: auto; 
+    max-width: 600px;}
       .rates-types-prev__list--bussines{
-        max-width: 600px;
+        
       }
   .rates-types-prev__item {
     margin-bottom: 40px; }
@@ -1861,7 +1869,7 @@ body {
   background-color: #f4f4f4;
   padding: 70px 0; }
   .dec-block__text {
-    margin: 40px auto 30px auto;
+    margin: 13px auto 30px auto;
     max-width: 900px;
     font-size: 20px;
     font-size: 1.25rem;
@@ -1934,7 +1942,8 @@ body {
   color: #676767;
   padding: 40px 0;
   max-width: 875px;
-  margin: auto; }
+  margin: auto;
+  text-align: center; }
 
 /* Стили для контактов */
 .short-contacts {
