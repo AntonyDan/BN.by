@@ -1613,8 +1613,12 @@ body {
     .two-side-container__left--short-contacts {
       min-height: 400px;
       background-image: url(../img/contacts-bg.jpg);
+      background-repeat: no-repeat;
       background-position: center center;
-      position: relative; }
+      position: relative; 
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
       @media only screen and (max-width: 768px) {
         .two-side-container__left--short-contacts {
           float: none;
