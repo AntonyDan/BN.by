@@ -1672,6 +1672,9 @@ body {
   -webkit-transform: translate(-100%, -50%);
       -ms-transform: translate(-100%, -50%);
           transform: translate(-100%, -50%); }
+  @media only screen and (max-width: 1250px) {
+        .services-prev  {
+          padding-left: 30px; } }
   .services-prev__inner {
     position: absolute;
     left: -9999em;
@@ -1905,16 +1908,12 @@ body {
 /* Стили для списка партнёров */
 .partners {
   max-width: 1180px;
+  width: 90%;
   margin: 0 auto;
   overflow: hidden; }
   @media only screen and (max-width: 768px) {
     .partners {
-      position: absolute;
-      left: -9999em;
-      top: auto;
-      width: 1px;
-      height: 1px;
-      overflow: hidden; } }
+      width: 90%;} }
   .partners__list {
     padding: 40px 0;
     margin-right: -20px;
@@ -1934,7 +1933,9 @@ body {
   .partners__item {
     display: inline-block;
     margin: 0 20px 20px 0; }
-
+    @media only screen and (max-width: 768px) {
+    .partners__item {
+      max-width: 41%;} }
 /* Текст под логотипами партнёров */
 .partners__text {
   font-size: 16px;
