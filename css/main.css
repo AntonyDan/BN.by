@@ -1633,6 +1633,9 @@ body {
       background-color: #292929;
       color: #fff;
       min-height: 400px; }
+     .two-side-container__right--rates-types .rates-types-prev__title {
+      color: #ff6600;
+      } 
     .two-side-container__right--short-form {
       min-height: 400px;
       position: relative;
@@ -1677,7 +1680,7 @@ body {
     text-transform: uppercase;
     margin-bottom: 20px; }
     .services-prev__title--rate-descr {
-      color: #292929; }
+      color: #ff6600; }
   .services-prev .button {
     margin-top: 15px; }
 
