@@ -1612,7 +1612,7 @@ body {
       color: #666666; }
     .two-side-container__left--short-contacts {
       min-height: 400px;
-      background-image: url(../img/contacts-bg.jpg);
+      background-image: url(../img/building.png);
       background-repeat: no-repeat;
       background-position: center center;
       position: relative; 
@@ -1709,6 +1709,9 @@ body {
       width: auto;
       height: auto;
       overflow: auto; }
+      .rates-types-prev__list--bussines{
+        max-width: 600px;
+      }
   .rates-types-prev__item {
     margin-bottom: 40px; }
     .rates-types-prev__item:last-child {
@@ -1936,10 +1939,12 @@ body {
 /* Стили для контактов */
 .short-contacts {
   color: #fff;
-  position: absolute;
+  position: relative;
   z-index: 2;
   width: 100%;
-  padding: 40px 0 40px 70px; }
+  padding: 40px 0 40px 70px; 
+  max-width: 860px;
+  float: right;}
   @media only screen and (max-width: 768px) {
     .short-contacts {
       width: 100%;
