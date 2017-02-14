@@ -1453,14 +1453,14 @@ body {
     font-size: 0.875rem;
     text-transform: uppercase;
     padding: 0 20px;
-    background-color: rgba(255, 255, 255, 0.6); }
+    background-color: rgba(255, 255, 255, 0.82); }
     .header--sticky .main-nav--home .main-nav__link{
       background-color: transparent;
       color: #fff;
     }
     .header--sticky .main-nav--home .main-nav__link:hover{
       background-color: #ff6600;
-      color: #fff;
+      color: #fff;  
     } 
   .main-nav--bussines {
     background-color: rgba(0, 0, 0, 0.3); }
