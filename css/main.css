@@ -1373,10 +1373,11 @@ body {
   .main-nav__item {
     display: inline-block;
     margin-right: 40px; }
-    .main-nav__item:hover {
+    .main-nav__item--hover:hover {
         background-color: #ff6600;
         color: white;
     }
+
     .main-nav__item:last-child {
       margin-right: 0; }
     .main-nav__item--active {
@@ -1453,7 +1454,17 @@ body {
     text-transform: uppercase;
     padding: 0 20px;
     background-color: rgba(255, 255, 255, 0.6); }
+    .header--sticky .main-nav--home .main-nav__link{
+      background-color: transparent;
+      color: #fff;
+    }
+    .header--sticky .main-nav--home .main-nav__link:hover{
+      background-color: #ff6600;
+      color: #fff;
+    } 
   .main-nav--bussines {
+    background-color: rgba(0, 0, 0, 0.3); }
+    .main-nav--home {
     background-color: rgba(0, 0, 0, 0.3); }
 
 /* кнопка 174 */
@@ -2817,9 +2828,9 @@ body {
   margin-bottom: 15px; }
 
 .main-contacts__block {
-  float: left;
+  float: left;  
   width: 30.333333%;
-  padding-right: 35px; }
+  padding-right: 35 px; }
   @media only screen and (max-width: 1200px) {
     .main-contacts__block {
       width: 45%; } }
