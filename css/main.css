@@ -1373,10 +1373,7 @@ body {
   .main-nav__item {
     display: inline-block;
     margin-right: 40px; }
-    .main-nav__item--hover:hover {
-        background-color: #ff6600;
-        color: white;
-    }
+    
 
     .main-nav__item:last-child {
       margin-right: 0; }
@@ -1458,6 +1455,8 @@ body {
       background-color: transparent;
       color: #fff;
     }
+    .main-nav--index .main-nav__item:hover,
+    .main-nav--bussines .main-nav__item:hover,
     .header--sticky .main-nav--home .main-nav__link:hover{
       background-color: #ff6600;
       color: #fff;  
@@ -1570,7 +1569,7 @@ body {
       position: absolute;
       left: -30px;
       height: 100%;
-      width: 2px;
+      width: 1px;
       background-color: #fff; }
   .banner-text__item {
     position: relative;
@@ -2830,7 +2829,7 @@ body {
 .main-contacts__block {
   float: left;  
   width: 30.333333%;
-  padding-right: 35 px; }
+  padding-right: 35px; }
   @media only screen and (max-width: 1200px) {
     .main-contacts__block {
       width: 45%; } }
