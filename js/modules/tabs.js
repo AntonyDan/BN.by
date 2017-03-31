@@ -52,6 +52,10 @@ var TABS = {
     "controllers" : document.querySelector('#homeTabsControllers'),
     "container"   : document.querySelector('#homeTabs')
   },
+  "homeTabsMap": {
+    "controllers" : document.querySelector('#homeTabsControllersMap'),
+    "container"   : document.querySelector('#homeTabsMap')
+  },
   "bussinesTabs": {
     "controllers" : document.querySelector('#bussinesTabsControllers'),
     "container"   : document.querySelector('#bussinesTabs')
@@ -72,6 +76,9 @@ if(document.querySelector('#ratesSwitcher') && document.querySelector('#ratesPre
 
 if(TABS.homeTabs.controllers && TABS.homeTabs.container) {
   tabs.init(TABS.homeTabs.controllers, TABS.homeTabs.container);
+}
+if(TABS.homeTabsMap.controllers && TABS.homeTabsMap.container) {
+  tabs.init(TABS.homeTabsMap.controllers, TABS.homeTabsMap.container);
 }
 
 if(TABS.bussinesTabs.controllers && TABS.bussinesTabs.container) {

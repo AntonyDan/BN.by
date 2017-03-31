@@ -227,7 +227,28 @@
           </div>
         </section><!-- Карта -->
         <section class="section section--map">
-          <div class="map"></div>
+          <p class="service__container page-important-text">Карта подключения по технологии Ethernet/xPON в г.Минске</p>
+          <div class="tabs tabs--home" id="homeTabsMap">
+            <nav class="tabs__controllers" id="homeTabsControllersMap">
+              <ul class="tabs__controllers-list">
+                <li class="tabs__control js--active" data-tabcontrol="homeNet"><a class="tabs__link" href="#">Точки подключения интернета</a></li>
+                <li class="tabs__control" data-tabcontrol="wifiNet"><a class="tabs__link" href="#">Точки Free Wifi</a></li>
+              </ul>
+            </nav>
+            <div class="tabs__body">
+              <div class="tabs__inner js--active" data-tabcontent="homeNet">
+                <div class="map">
+                  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3AP4-ZhHOvu0xEYpz5Zo4E30lenRCz7U3f&amp;width=100%&amp;height=300&amp;lang=ru_UA&amp;scroll=true">
+                  </script>
+                </div>
+              </div>
+              <div class="tabs__inner" data-tabcontent="wifiNet">
+                <div class="map">
+                  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3AmW9ncfiSriqnO6vJ1sqsVNjm_FWMJ_Nf&amp;width=100%&amp;height=300&amp;lang=ru_UA&amp;scroll=true"></script>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
     </div><!-- Футер -->
