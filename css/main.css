@@ -1950,7 +1950,9 @@ body {
   .partners__list {
     padding: 40px 0;
     margin-right: -20px;
-    position: relative; }
+    position: relative; 
+    text-align: center;
+  }
     .partners__list:after {
       display: block;
       content: "";
